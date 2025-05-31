@@ -1,25 +1,32 @@
-# 🩺 Diabetes Prediction using SVM
+# 🩺 Diabetes Prediction using Machine Learning
 
-This project uses Support Vector Machine (SVM) to predict whether a person has diabetes based on health data from the Pima Indian dataset.
+This project uses machine learning to predict whether a patient has diabetes based on diagnostic data.
 
-## 🔍 What it does
-- Loads and preprocesses the dataset
-- Applies feature scaling
-- Trains a Support Vector Machine model
-- Evaluates model performance
-- Visualizes confusion matrix and feature correlation
+## 📁 Dataset
+- Source: [Kaggle - Pima Indian Diabetes Dataset](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
+- File used: `diabetes.csv`
 
-## 🛠 Technologies Used
-- Python
-- Pandas, NumPy
-- Scikit-learn (SVM, metrics)
-- Matplotlib, Seaborn
+## 📊 Features
+- Pregnancies
+- Glucose
+- Blood Pressure
+- Skin Thickness
+- Insulin
+- BMI
+- Diabetes Pedigree Function
+- Age
 
-## 📊 Output
-![Confusion Matrix](screenshots/confusion_matrix.png)
+## 🧠 Model Used
+- Logistic Regression (can be expanded to Decision Tree, Random Forest, etc.)
 
-## 🚀 How to Run
+## ✅ Output
+- Accuracy score
+- Classification report
+- Confusion matrix
 
+## 📦 Requirements
+
+Install with:
 ```bash
 pip install -r requirements.txt
-python main.py
+****
